@@ -69,7 +69,7 @@ Seaborn
 - Handling Outliers.
 - Data Visualization.
 
-**Conclusion**
+## Conclusion
 
 The analysis provides valuable insights into the factors affecting loan defaults, which can be used by financial institutions to refine their lending criteria and reduce credit loss.
 
