@@ -17,6 +17,7 @@ This project aims to analyze a loan dataset to understand the factors that contr
 The business problem addressed by this project is minimizing financial losses due to loan defaults. By identifying high-risk borrowers and understanding the factors associated with defaults, lenders can develop strategies to mitigate risks and improve their loan portfolio performance.
 
 **Dataset**
+
 The dataset used in this analysis contains information about thousands of loans, including borrower demographics, loan characteristics, and repayment status. The dataset used in this study includes past loan applicants with various attributes such as:
 - **Loan Amount:** The principal amount borrowed.
 - **Interest Rate:** The annual interest rate charged on the loan.
@@ -32,6 +33,7 @@ The dataset used in this analysis contains information about thousands of loans,
 ## Conclusions
 
 **Univariate Analysis:**
+
 **Loan Amount:** The majority of loans fall between $5,000 and $15,000, with a mean loan amount of approximately $11,000.
 **Income Distribution:** The annual income distribution is heavily right-skewed with a mean of around $65,000.
 **Interest Rates:** The distribution is bimodal with peaks around 10% and 13%, with the mean rate around 12%.
@@ -39,12 +41,14 @@ The dataset used in this analysis contains information about thousands of loans,
 **Loan Purpose: **The majority of loans are for debt consolidation.
 
 **Bivariate Analysis:**
+
 - **Income and Interest Rate:** Borrowers with lower income and higher interest rates are more likely to default, indicating a higher risk associated with lending to individuals with limited financial capacity and higher borrowing costs.
 - **Home Ownership and Bankruptcies:** Individuals who do not own homes and have a history of bankruptcies exhibit a greater likelihood of default, suggesting that homeownership and past financial behavior are important indicators of creditworthiness.
 - **Loan Purpose and Amount:** The purpose of the loan and the loan amount play a significant role in default risk. Small business loans and larger loan amounts tend to be associated with higher default rates, highlighting the need for careful assessment of business viability and borrower repayment capacity.
 - **Time and Location:** Loans issued in earlier years (2007-2008) and in certain states (NV, AK, FL) show higher charge-off rates, potentially reflecting the impact of economic conditions and regional variations on loan performance.
 
 **Correlation Analysis**
+
 Positive correlations were found between loan amount, funded amount, and investor-funded amount.
 Interest rate showed a moderate positive correlation with loan amount.
 A weak negative correlation was observed between public record bankruptcies and annual income.
@@ -57,6 +61,7 @@ Matplotlib.Pyplot
 Seaborn
 
 ## Project Work flow
+
 - Importing Libraries.
 - Loading the Dataset.
 - Explore Dataset.
@@ -65,11 +70,13 @@ Seaborn
 - Data Visualization.
 
 **Conclusion**
+
 The analysis provides valuable insights into the factors affecting loan defaults, which can be used by financial institutions to refine their lending criteria and reduce credit loss.
 
 ## Acknowledgements
 
 ## Contact
+
 Created by [@abhilashkdeveloper,@komal2] - feel free to contact me!
 
 
