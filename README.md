@@ -35,10 +35,14 @@ The dataset used in this analysis contains information about thousands of loans,
 **Univariate Analysis:**
 
 **Loan Amount:** The majority of loans fall between $5,000 and $15,000, with a mean loan amount of approximately $11,000.
+
 **Income Distribution:** The annual income distribution is heavily right-skewed with a mean of around $65,000.
+
 **Interest Rates:** The distribution is bimodal with peaks around 10% and 13%, with the mean rate around 12%.
+
 **Home Ownership:** Most applicants either rent or have a mortgage.
-**Loan Purpose: **The majority of loans are for debt consolidation.
+
+**Loan Purpose:** The majority of loans are for debt consolidation.
 
 **Bivariate Analysis:**
 
